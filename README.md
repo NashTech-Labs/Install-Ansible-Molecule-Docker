@@ -12,25 +12,25 @@ This repository contains a bash script to install Ansible, Molecule, and Docker 
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
+    git clone https://github.com/NashTech-Labs/Install-Ansible-Molecule-Docker.git
+    cd Install-Ansible-Molecule-Docker
     ```
 
 2. **Make the Script Executable:**
 
     ```bash
-    chmod +x install_ansible_molecule.sh
+    chmod +x ansible_molecule.sh
     ```
 
 3. **Run the Script:**
 
     ```bash
-    ./install_ansible_molecule.sh
+    ./ansible_molecule.sh
     ```
 
 ## Purpose of the Script
 
-The `install_ansible_molecule.sh` script automates the installation and setup of the following components:
+The `ansible_molecule.sh` script automates the installation and setup of the following components:
 
 - **Ansible**: A powerful IT automation tool.
 - **Molecule**: A testing framework for Ansible roles, providing a way to develop and test roles with multiple scenarios.
